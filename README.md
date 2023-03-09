@@ -17,7 +17,7 @@ In terms of technical expertise, I possess a wide range of skills. My career has
 
 ### Contact Me 📫
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/petru-arakiss/) or check out my [personal website](https://www.petruarakiss.com/) to learn more about my work and experience.
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/petruarakiss/) or check out my [personal website](https://www.petruarakiss.com/) to learn more about my work and experience.
 
 ### Keep in Touch 🤝
 
