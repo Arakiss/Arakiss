@@ -1,10 +1,17 @@
 # Hi, I'm Petru Arakiss 👋
 
-### About Me
+## About Me
 
-I'm a developer with over 15 years of experience in technical development, including 10 years of managing and leading diverse engineering teams across a variety of industries. I specialize in full-stack web development and am a versatile and innovative leader. I'm passionate about learning and teaching cutting-edge technologies, promoting internal growth, and leading distributed teams of software developers. I'm committed to continuously improving the development processes of the company to ensure its success. I have expertise in navigating complex ecosystems and managing them in the most efficient way possible.
+I'm a software developer with a passion for solving complex problems and building high-quality products that make a difference in people's lives. With over 15 years of experience in technical development and 10 years of experience managing and leading engineering teams, I have honed my skills in full-stack web development and become a versatile and innovative leader. 
 
-In terms of technical expertise, I possess a wide range of skills. My career has largely involved working with JavaScript technologies (frontends, backends, infrastructure), however I have also been exposed to other programming languages and have acquired a comprehensive knowledge of computer science concepts, programming language paradigms, and principles as a result of my educational background. As a result of this knowledge, I am capable of picking up a language that I am unfamiliar with within a short period of time and becoming proficient in it.
+My approach to development is rooted in a growth mindset and a desire to continually learn and push boundaries. I thrive in dynamic, fast-paced environments and am always looking for ways to improve processes, streamline workflows, and increase efficiency.
+
+### Technical Skills 💻
+
+- **Languages:** JavaScript, TypeScript, Rust, HTML, CSS
+- **Frameworks/Libraries:** React, Vue.js, Angular, AngularJS, jQuery, Node.js, Express.js
+- **Databases:** MySQL, PostgreSQL, MongoDB
+- **Tools:** Git, Webpack, Babel, ESLint
 
 ### My Specializations 🚀
 
@@ -19,6 +26,6 @@ In terms of technical expertise, I possess a wide range of skills. My career has
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/petruarakiss/) or check out my [personal website](https://www.petruarakiss.com/) to learn more about my work and experience.
 
-### Keep in Touch 🤝
+### Let's Connect 🤝
 
-Remember to check back periodically to see any updates to my profile and to get in touch with me if you have any questions or would like to collaborate on a project.
+I'm always interested in connecting with other developers and industry professionals. Whether you're interested in discussing a potential project, exploring a new technology stack, or just want to chat, feel free to get in touch.
