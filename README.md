@@ -1,4 +1,4 @@
-# Petru Arakiss: Innovating at the Intersection of AI and Web Technologies 🚀
+# Petru Arakiss: AI & Software Engineering Leader | 18+ Years in Tech: Full-Stack, Cloud & AI 🚀 | Innovating at Tech Intersection
 
 ## About Me 🌟
 
@@ -8,16 +8,16 @@ With 18 years at the forefront of tech innovation, I've cultivated a unique blen
 
 ### AI & Machine Learning 🧠
 - **Large Language Models (LLM)**: Customizing and deploying models like GPT, BERT, and T5
-- **Advanced RAG Systems**:
+- **Advanced Retrieval-Augmented Generation (RAG) Systems**:
   - Graph RAG: Implementing graph-based RAG for complex, interconnected information retrieval
   - Hybrid RAG: Combining vector and graph-based approaches for comprehensive information access
 - **Cognitive AI Architectures**: Exploring neural-symbolic integration and explainable AI systems
-- **MLOps**: Implementing end-to-end ML pipelines and monitoring systems
+- **MLOps**: Implementing end-to-end ML pipelines, automated workflows, and monitoring systems using tools like MLflow and Kubeflow
 - **Computer Vision & NLP**: Developing state-of-the-art models for image recognition and natural language understanding
 
 ### Web Technologies 🌐
 - **Frontend**: React, Vue.js, Angular, Web Components
-- **Backend**: Node.js, Express, FastAPI, Django
+- **Backend**: Node.js, Express, FastAPI, Fastify
 - **Full-Stack**: Next.js, Nuxt.js, MERN/MEAN Stack
 - **Progressive Web Apps**: Offline-first applications, Service Workers
 - **Web Performance Optimization**: Techniques for faster loading and rendering
