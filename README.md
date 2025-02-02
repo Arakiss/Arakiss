@@ -1,52 +1,45 @@
 # Petru Arakiss  
-## AI & Software Engineering Leader | Full-Stack, Cloud & AI  
+## AI Architect | Software & Cloud Engineer  
 
-I’ve spent the last 18+ years navigating the intersection of web development, cloud computing, and AI, working on everything from full-stack applications to distributed AI systems. These days, I’m particularly focused on pushing the boundaries of multi-agent architectures and retrieval-augmented generation (RAG), finding ways to make autonomous systems collaborate more effectively in real-world enterprise environments.  
+I design and build AI systems that go beyond automation—systems that analyze, reason, and adapt. With 18+ years of experience in software engineering, cloud infrastructure, and AI, I focus on developing intelligent architectures that integrate large language models (LLMs), retrieval-augmented generation (RAG), and multi-agent systems for enterprise applications.  
 
-### 🔭 What I’m Working On  
+### 🔭 Current Work  
 
-Lately, I’ve been diving deep into:  
-- Designing cognitive architectures that merge RAG with autonomous agents  
-- Developing enterprise-grade multi-agent systems for security and data intelligence  
-- Exploring new ways to optimize retrieval systems with hybrid search techniques  
-- Building event-driven architectures that scale intelligently with demand  
+Right now, I’m working on:  
+- **AI system architecture** – Designing modular, scalable AI infrastructures  
+- **Multi-agent systems** – Building autonomous agents that collaborate for data analysis and security  
+- **Retrieval-augmented generation (RAG)** – Improving how AI retrieves and processes information  
+- **Event-driven architectures** – Creating scalable pipelines for AI-powered data workflows  
 
-### 🛠 The Tools I Use  
+### 🛠 Tech & Tools  
 
 #### AI & Machine Learning  
-- **Agent Systems**: Multi-agent architectures, cognitive frameworks, agent-based reasoning  
-- **RAG & LLMs**: Hybrid retrieval, semantic search, prompt engineering  
-- **MLOps**: Model fine-tuning, automated deployment pipelines, monitoring  
+- **Autonomous Agents** – Multi-agent architectures, cognitive AI models  
+- **RAG & LLMs** – Hybrid retrieval, semantic search, knowledge augmentation  
+- **MLOps** – Model deployment, monitoring, and optimization  
 
-#### Cloud & Scalable Architectures  
-- **Cloud Platforms**: AWS, Azure—focused on scalable, resilient infrastructure  
-- **Event Processing**: Kafka, RabbitMQ, event-driven patterns for real-time data  
-- **DevOps & Automation**: Terraform, CI/CD, infrastructure-as-code  
+#### Cloud & Infrastructure  
+- **Cloud Platforms** – AWS, Azure, cloud-native architectures  
+- **Data & Event Processing** – Kafka, RabbitMQ, real-time data pipelines  
+- **DevOps & Automation** – Terraform, CI/CD, infrastructure-as-code  
 
-#### Full-Stack Development  
-- **Frontend**: React, Vue.js, modern component-based architectures  
-- **Backend**: Node.js, FastAPI, building high-performance APIs  
-- **APIs & Data Flow**: REST, GraphQL, gRPC—designing efficient data pipelines  
+#### Full-Stack Engineering  
+- **Frontend** – React, Vue.js, component-driven architectures  
+- **Backend** – Node.js, FastAPI, high-performance APIs  
+- **Data & APIs** – REST, GraphQL, gRPC, structured data flow  
 
-### 🌟 Some Things I’ve Built  
+### 🌟 Projects & Experience  
 
-Over the years, I’ve worked on projects that blend AI, security, and automation. A few highlights:  
-- **Enterprise AI Agents** – Scalable multi-agent systems that automate security analysis and decision-making  
-- **RAG-Driven Knowledge Systems** – High-performance retrieval models that intelligently filter and process vast amounts of information  
-- **Cognitive Agent Frameworks** – Architectures designed to improve coordination and reasoning among autonomous agents  
-- **Real-Time Data Pipelines** – Event-driven, distributed systems that handle large-scale data processing with AI at their core  
+I’ve designed AI-driven platforms for security, automation, and enterprise intelligence, including:  
+- **Enterprise AI Agents** – Multi-agent systems for automated data analysis and cybersecurity  
+- **Intelligent Knowledge Retrieval** – RAG-powered systems that improve AI-driven search and decision-making  
+- **Cognitive AI Frameworks** – Architectures that enable AI agents to work together efficiently  
+- **Real-Time Data Processing** – Scalable AI pipelines for analyzing large datasets on the fly  
 
-### 💡 What I Bring to the Table  
+### 📫 Let’s Connect  
 
-Beyond just technical expertise, I focus on designing systems that are:  
-✔️ Scalable & resilient  
-✔️ Secure by design  
-✔️ Architected for real-world impact  
-
-### 📫 Let’s Talk  
-
-I’m always up for a discussion about multi-agent systems, AI-driven automation, and how intelligent architectures are shaping the future of enterprise tech.  
+I enjoy discussing AI system design, scalable architectures, and how to make AI work in real-world enterprise environments.  
 
 [LinkedIn](https://www.linkedin.com/in/petruarakiss/) | Email: petruarakiss@gmail.com  
 
-*Building intelligent systems that don’t just work—but think, adapt, and evolve.*
+*AI should be more than just automation—it should think, adapt, and solve real problems.*
