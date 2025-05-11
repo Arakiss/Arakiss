@@ -1,45 +1,31 @@
-# Petru Arakiss  
-## AI Architect | Software & Cloud Engineer  
+# Petru Arakiss
 
-I design and build AI systems that go beyond automation—systems that analyze, reason, and adapt. With 18+ years of experience in software engineering, cloud infrastructure, and AI, I focus on developing intelligent architectures that integrate large language models (LLMs), retrieval-augmented generation (RAG), and multi-agent systems for enterprise applications.  
+## AI Architect | Software Engineer
 
-### 🔭 Current Work  
+I design AI systems that reason, adapt, and scale. With 18+ years of experience in software engineering and intelligent systems, I focus on architectures that integrate large language models (LLMs), retrieval-augmented generation (RAG), and multi-agent frameworks for real-world use.
 
-Right now, I’m working on:  
-- **AI system architecture** – Designing modular, scalable AI infrastructures  
-- **Multi-agent systems** – Building autonomous agents that collaborate for data analysis and security  
-- **Retrieval-augmented generation (RAG)** – Improving how AI retrieves and processes information  
-- **Event-driven architectures** – Creating scalable pipelines for AI-powered data workflows  
+### Current Focus
 
-### 🛠 Tech & Tools  
+* **AI system architecture** – Modular, production-ready design
+* **Multi-agent systems** – Autonomous, goal-driven agents
+* **RAG pipelines** – Structured retrieval and semantic search
+* **Event-driven workflows** – Real-time data processing
 
-#### AI & Machine Learning  
-- **Autonomous Agents** – Multi-agent architectures, cognitive AI models  
-- **RAG & LLMs** – Hybrid retrieval, semantic search, knowledge augmentation  
-- **MLOps** – Model deployment, monitoring, and optimization  
+### Tools & Technologies
 
-#### Cloud & Infrastructure  
-- **Cloud Platforms** – AWS, Azure, cloud-native architectures  
-- **Data & Event Processing** – Kafka, RabbitMQ, real-time data pipelines  
-- **DevOps & Automation** – Terraform, CI/CD, infrastructure-as-code  
+* **AI/ML** – LLMs, RAG, semantic search, cognitive agents
+* **Infra & Automation** – Kafka, FastAPI, CI/CD, scalable APIs
+* **Full-Stack** – React, Node.js, GraphQL, clean component design
 
-#### Full-Stack Engineering  
-- **Frontend** – React, Vue.js, component-driven architectures  
-- **Backend** – Node.js, FastAPI, high-performance APIs  
-- **Data & APIs** – REST, GraphQL, gRPC, structured data flow  
+### Projects
 
-### 🌟 Projects & Experience  
+* AI agents for threat detection and autonomous data analysis
+* Retrieval systems for intelligent search and decision-making
+* Agent-based frameworks for distributed reasoning
+* Scalable AI pipelines for real-time, event-based systems
 
-I’ve designed AI-driven platforms for security, automation, and enterprise intelligence, including:  
-- **Enterprise AI Agents** – Multi-agent systems for automated data analysis and cybersecurity  
-- **Intelligent Knowledge Retrieval** – RAG-powered systems that improve AI-driven search and decision-making  
-- **Cognitive AI Frameworks** – Architectures that enable AI agents to work together efficiently  
-- **Real-Time Data Processing** – Scalable AI pipelines for analyzing large datasets on the fly  
+### Interests
 
-### 📫 Let’s Connect  
+Building AI that solves actual problems—efficient, reliable, and aligned with business goals.
 
-I enjoy discussing AI system design, scalable architectures, and how to make AI work in real-world enterprise environments.  
-
-[LinkedIn](https://www.linkedin.com/in/petruarakiss/) | Email: petruarakiss@gmail.com  
-
-*AI should be more than just automation—it should think, adapt, and solve real problems.*
+[LinkedIn](https://www.linkedin.com/in/petruarakiss/) | [petruarakiss@gmail.com](mailto:petruarakiss@gmail.com)
