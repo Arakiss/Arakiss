@@ -1,31 +1,23 @@
 # Petru Arakiss
 
-## AI Architect | Software Engineer
+**AI Engineering Lead @ Atlax360**
 
-I design AI systems that reason, adapt, and scale. With 18+ years of experience in software engineering and intelligent systems, I focus on architectures that integrate large language models (LLMs), retrieval-augmented generation (RAG), and multi-agent frameworks for real-world use.
+19 years building software, working with AI systems since 2015. I specialize in multi-agent architectures, RAG pipelines, and systems that actually work in production—not slide deck demos.
 
-### Current Focus
+## What I Do
 
-* **AI system architecture** – Modular, production-ready design
-* **Multi-agent systems** – Autonomous, goal-driven agents
-* **RAG pipelines** – Structured retrieval and semantic search
-* **Event-driven workflows** – Real-time data processing
+I lead AI engineering at Atlax360, where we build systems that combine LLMs with event-driven architectures for real-world use cases. Also manage the frontend platform because someone needs to make sure what we build on the backend makes sense to the people using it.
 
-### Tools & Technologies
+I work mostly with:
+- Multi-agent architectures for automation and analysis
+- RAG pipelines with semantic search and structured retrieval
+- Scalable systems using Kafka, FastAPI, and whatever makes sense for the problem
+- Full-stack when needed (React, Node.js, GraphQL)
 
-* **AI/ML** – LLMs, RAG, semantic search, cognitive agents
-* **Infra & Automation** – Kafka, FastAPI, CI/CD, scalable APIs
-* **Full-Stack** – React, Node.js, GraphQL, clean component design
+## Philosophy
 
-### Projects
+I prefer systems that solve specific problems over architectures that sound impressive. AI is a tool, not magic—if it doesn't improve a measurable process, it's not useful.
 
-* AI agents for threat detection and autonomous data analysis
-* Retrieval systems for intelligent search and decision-making
-* Agent-based frameworks for distributed reasoning
-* Scalable AI pipelines for real-time, event-based systems
+I've seen enough AI projects die because nobody thought about maintenance or scale. I care about the boring part: making it work reliably when nobody's watching.
 
-### Interests
-
-Building AI that solves actual problems—efficient, reliable, and aligned with business goals.
-
-[LinkedIn](https://www.linkedin.com/in/petruarakiss/) | [petruarakiss@gmail.com](mailto:petruarakiss@gmail.com)
+**Contact:** [petruarakiss@gmail.com](mailto:petruarakiss@gmail.com) | [LinkedIn](https://www.linkedin.com/in/petruarakiss/)
