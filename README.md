@@ -6,13 +6,19 @@
 
 ## What I Do
 
-I lead AI engineering at Atlax360, where we build systems that combine LLMs with event-driven architectures for real-world use cases. Also manage the frontend platform because someone needs to make sure what we build on the backend makes sense to the people using it.
+I lead AI engineering at Atlax360, where we build systems that combine LLMs with production-ready architectures. Also manage the frontend platform because someone needs to make sure what we build on the backend makes sense to the people using it.
 
-I work mostly with:
-- Multi-agent architectures for automation and analysis
-- RAG pipelines with semantic search and structured retrieval
-- Scalable systems using Kafka, FastAPI, and whatever makes sense for the problem
-- Full-stack when needed (React, Node.js, GraphQL)
+Current stack:
+- **Backend:** FastAPI, async Python, Supabase (PostgreSQL + pgvector), Redis
+- **Frontend:** Next.js, TypeScript, Tailwind CSS, shadcn/ui, Vercel AI SDK
+- **AI/ML:** OpenAI, Anthropic, Transformers, sentence-transformers, PyTorch
+- **Document Intelligence:** Docling, pdfplumber, OCR (EasyOCR, Tesseract), full Office suite processing
+
+I work on:
+- Multi-agent systems for document analysis and automation
+- RAG pipelines with semantic search and vector databases
+- Heavy document processing (PDFs, Office files, OCR, structured extraction)
+- Full-stack AI applications that people actually use
 
 ## Philosophy
 
