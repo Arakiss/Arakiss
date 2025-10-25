@@ -6,15 +6,15 @@ I've spent 19 years building software and the last decade focused on AI systems.
 
 ## What I'm Working On
 
-At Atlax360 I'm leading three platforms that combine LLMs with production-grade architectures:
+At Atlax360 I lead AI engineering across multiple enterprise platforms:
 
-**Bifrost** is our document intelligence and RAG infrastructure. It handles complex document processing at scale and powers semantic search across organizational knowledge. The architecture uses multi-agent orchestration where specialized agents handle different domains and coordinate through message passing.
+**Bifrost** - Document intelligence and RAG infrastructure for organizational knowledge management. Multi-agent architecture that processes complex documents and enables semantic search at scale.
 
-**Orvian** is a multi-tenant platform for B2B workflow automation. We're building intelligent orchestration for business processes that require multi-channel coordination and decision support. Right now it has SSO, invitation flows, and flexible RBAC. The roadmap includes LLM-assisted workflow engines and automated communication across multiple channels.
+**Orvian** - Multi-tenant platform for intelligent business process automation and workflow orchestration.
 
-**Polaris** is our internal knowledge assistant. It's an agentic layer on top of Bifrost that lets teams query organizational knowledge through natural conversation. Supports multiple languages and integrates with existing business systems to surface the right information when people need it.
+**Polaris** - Conversational AI interface for internal knowledge access. Provides natural language interaction with organizational data across multiple languages.
 
-All three run on the same stack because maintaining different architectures for similar problems is a waste of time.
+These systems combine LLMs with production-grade architectures to solve real business problems. Same stack across all platforms because consistency matters.
 
 ## Stack
 
@@ -27,6 +27,12 @@ All three run on the same stack because maintaining different architectures for 
 **Databases:** PostgreSQL with pgvector for semantic search
 
 **Tools:** Vercel AI SDK, Drizzle ORM, pydantic, structlog
+
+## Approach
+
+I spend a lot of time on context engineering. Not the trendy prompt engineering stuff, but actual architecture for how systems maintain and use context. Most RAG implementations fail because they treat context as an afterthought. I design systems where context flows naturally between agents, persists across interactions, and degrades gracefully when it gets stale.
+
+Multi-agent systems work when each agent owns a clear domain and communicates through structured messages. The coordinator doesn't need to know everything, it just needs to know which agent to ask. Context engineering is about making sure the right information lands in the right place at the right time without bloating every prompt with the entire knowledge base.
 
 ## Open Source
 
