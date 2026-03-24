@@ -1,18 +1,18 @@
 # Petru Arakiss
 
-**Head of AI Engineering & Frontend Platform @Atlax360**
+**AI Engineering Lead & Head of Frontend Platform @Atlax360**
 
-I've spent 19 years building software and the last decade focused on AI systems. These days I architect multi-agent platforms, RAG pipelines, and document intelligence systems that actually ship to production. I also run the frontend platform at Atlax360 because building good AI is pointless if nobody can use it.
+I've spent 20 years building software and the last decade focused on AI systems. These days I architect multi-agent platforms, RAG pipelines, and document intelligence systems that actually ship to production. I also run the frontend platform at Atlax360 because building good AI is pointless if nobody can use it.
 
 ## What I'm Working On
 
 At Atlax360 I lead AI engineering across multiple enterprise platforms:
 
-**Bifrost** - Document intelligence and RAG infrastructure for organizational knowledge management. Multi-agent architecture that processes complex documents and enables semantic search at scale.
+**Bifrost** - Document intelligence and RAG infrastructure. Semantic chunking, OCR pipelines, and search services. Python, FastAPI, pdfplumber, Tesseract, PyTorch, Supabase with pgvector.
 
-**Orvian** - Multi-tenant platform for intelligent business process automation and workflow orchestration.
+**Orvian** - Workflow engine for B2B collections. Deterministic orchestration with human-in-the-loop escalation. Multi-channel communications, intent parsing, promise tracking. Next.js, React, Tailwind, TanStack Table.
 
-**Polaris** - Conversational AI interface for internal knowledge access. Provides natural language interaction with organizational data across multiple languages.
+**Polaris** - Internal knowledge assistant for Support, CS, Sales, and Dev teams. Conversational search with citations, role-based access, streaming UX. Built on top of Bifrost for retrieval. Next.js, Vercel AI SDK, Drizzle ORM.
 
 These systems combine LLMs with production-grade architectures to solve real business problems. Same stack across all platforms because consistency matters.
 
@@ -38,13 +38,15 @@ Multi-agent systems work when each agent owns a clear domain and communicates th
 
 I build tools when I see a gap worth filling:
 
-**bunkit** - Modern CLI for Bun-powered projects. Scaffolds production-ready apps in seconds.
-
 **ghostty-warp** - Brings Warp-inspired features to Ghostty terminal. Auto-suggestions, syntax highlighting, fuzzy search, and themes.
 
-**commitloom** - AI-powered commit message generation. Makes git history actually useful.
+**vestig** - Runtime-agnostic structured logging library with automatic PII sanitization and context propagation. Successor to nexlog.
 
-**nexlog** - Logging library for Next.js that works across server, browser, and edge without fighting you.
+**gitmuse** - AI-powered tool that analyzes staged changes and suggests meaningful commit messages.
+
+**bunkit** - Modern CLI for Bun-powered projects. Scaffolds production-ready apps in seconds.
+
+**commitloom** - AI-powered commit message generation. Makes git history actually useful.
 
 ## Philosophy
 
@@ -60,4 +62,4 @@ I work 100% remote from Madrid. Before Atlax360 I built everything from game eng
 
 If you're working on something in the AI/document intelligence/automation space, reach out.
 
-**Contact:** [petruarakiss@gmail.com](mailto:petruarakiss@gmail.com) | [LinkedIn](https://www.linkedin.com/in/petruarakiss/)
+**Contact:** [petruarakiss@gmail.com](mailto:petruarakiss@gmail.com) | [LinkedIn](https://www.linkedin.com/in/petruarakiss/) | [petruarakiss.com](https://petruarakiss.com)
