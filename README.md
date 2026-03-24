@@ -1,8 +1,8 @@
 # Petru Arakiss
 
-**AI Engineering Lead & Head of Frontend Platform @Atlax360**
+**AI Engineering Lead @Atlax360**
 
-I've spent 20 years building software and the last decade focused on AI systems. These days I architect multi-agent platforms, RAG pipelines, and document intelligence systems that actually ship to production. I also run the frontend platform at Atlax360 because building good AI is pointless if nobody can use it.
+I've spent 20 years building software and the last decade focused on AI systems. These days I architect multi-agent platforms, RAG pipelines, and document intelligence systems that actually ship to production.
 
 ## What I'm Working On
 
