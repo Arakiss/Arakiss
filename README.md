@@ -1,65 +1,71 @@
 # Petru Arakiss
 
-**AI Engineering Lead @Atlax360**
+**AI Product & Platform Engineer @ Atlax360**
 
-I've spent 20 years building software and the last decade focused on AI systems. These days I architect multi-agent platforms, RAG pipelines, and document intelligence systems that actually ship to production.
+I build production AI systems where the model is one component inside a larger product surface: retrieval infrastructure, agent runtimes, guardrails, evals, traces, cost controls, permissions, and operator-facing interfaces.
 
-## What I'm Working On
+I have 20 years of software delivery experience across product, frontend, backend, and platform work. The current focus is making AI useful in real financial operations, where answers need evidence, workflows need state, and failure modes need to be visible.
 
-At Atlax360 I lead AI engineering across multiple enterprise platforms:
+## Current Work
 
-**Bifrost** - Document intelligence and RAG infrastructure. Semantic chunking, OCR pipelines, and search services. Python, FastAPI, pdfplumber, Tesseract, PyTorch, Supabase with pgvector.
+At Atlax360 I lead AI engineering across three production systems. The names are internal; the engineering shape is the signal.
 
-**Orvian** - Workflow engine for B2B collections. Deterministic orchestration with human-in-the-loop escalation. Multi-channel communications, intent parsing, promise tracking. Next.js, React, Tailwind, TanStack Table.
+**BIFROST**
 
-**Polaris** - Internal knowledge assistant for Support, CS, Sales, and Dev teams. Conversational search with citations, role-based access, streaming UX. Built on top of Bifrost for retrieval. Next.js, Vercel AI SDK, Drizzle ORM.
+Document intelligence and retrieval infrastructure for real-world inputs: ingestion quality gates, semantic chunking, semantic and visual retrieval, pgvector/HNSW search, caching, source-quality summaries, analytics, and honest no-answer behavior.
 
-These systems combine LLMs with production-grade architectures to solve real business problems. Same stack across all platforms because consistency matters.
+`Python` · `FastAPI` · `PostgreSQL` · `pgvector` · `Docling` · `PyTorch` · `Transformers`
 
-## Stack
+**ORVIAN**
 
-**Backend:** FastAPI, Python, Supabase, PostgreSQL, Redis
+AI workflow runtime for B2B operational workflows: protected multi-tenant APIs, context assembly, durable memory, deterministic/cached/full-LLM execution tiers, run events, idempotency, queue processing, scheduled maintenance, and human-review metadata.
 
-**Frontend:** Next.js, React, TypeScript, Tailwind CSS, shadcn/ui
+`TypeScript` · `Hono` · `PostgreSQL` · `Drizzle` · `Supabase` · `queues` · `scheduled jobs`
 
-**AI/ML:** OpenAI, Anthropic Claude, PyTorch, Transformers
+**Polaris**
 
-**Databases:** PostgreSQL with pgvector for semantic search
+Internal AI assistant product integrating BIFROST retrieval with MONARCH guardrails, cached safety-to-retrieval handoff, citations, streaming UX, visual query support, query analytics, and suggestion revalidation.
 
-**Tools:** Vercel AI SDK, Drizzle ORM, pydantic, structlog
+`Next.js` · `Vercel AI SDK` · `BIFROST` · `MONARCH` · `Drizzle ORM` · `PostgreSQL`
 
-## Approach
+## Engineering Focus
 
-I spend a lot of time on context engineering. Not the trendy prompt engineering stuff, but actual architecture for how systems maintain and use context. Most RAG implementations fail because they treat context as an afterthought. I design systems where context flows naturally between agents, persists across interactions, and degrades gracefully when it gets stale.
+- **Retrieval infrastructure:** ingestion, chunking, metadata, semantic search, visual search, citations, source quality, and no-answer paths.
+- **Agent runtimes:** state, context assembly, tool use, execution tiers, idempotency, queues, handoffs, and human review.
+- **AI guardrails:** prompt-injection checks, context sanitization, confidence thresholds, escalation rules, and audit trails.
+- **Product reliability:** latency, token/cost metadata, observability, eval loops, regression checks, and operator-facing UX.
+- **Full-stack delivery:** product judgment across interfaces, APIs, databases, deployment, and operational constraints.
 
-Multi-agent systems work when each agent owns a clear domain and communicates through structured messages. The coordinator doesn't need to know everything, it just needs to know which agent to ask. Context engineering is about making sure the right information lands in the right place at the right time without bloating every prompt with the entire knowledge base.
+## Selected Public Work
 
-## Open Source
+**[ghostty-warp](https://github.com/Arakiss/ghostty-warp)**
 
-I build tools when I see a gap worth filling:
+Ghostty configuration system with themes, presets, fonts, tmux integration, and a config switcher.
 
-**ghostty-warp** - Brings Warp-inspired features to Ghostty terminal. Auto-suggestions, syntax highlighting, fuzzy search, and themes.
+**[vestig](https://github.com/Arakiss/vestig)**
 
-**vestig** - Runtime-agnostic structured logging library with automatic PII sanitization and context propagation. Successor to nexlog.
+Runtime-agnostic structured logging with context propagation, observability primitives, and automatic PII sanitization.
 
-**gitmuse** - AI-powered tool that analyzes staged changes and suggests meaningful commit messages.
+**[gommage](https://github.com/Arakiss/gommage)**
 
-**bunkit** - Modern CLI for Bun-powered projects. Scaffolds production-ready apps in seconds.
+Policy-as-code permission harness for AI coding agents: deterministic rules instead of prompt-only safety.
 
-**commitloom** - AI-powered commit message generation. Makes git history actually useful.
+**[directed-systems-guide](https://github.com/Arakiss/directed-systems-guide)**
 
-## Philosophy
+Research-backed field guide on human-AI collaboration, directed systems, and the limits of autonomous agents.
 
-Most AI projects fail for boring reasons. People chase the latest model instead of solving the actual problem. They build impressive demos that fall apart under load. They forget about error handling, monitoring, rate limits, and all the unglamorous stuff that makes systems reliable.
+**[forgewright](https://github.com/Arakiss/forgewright)**
 
-RAG is just information retrieval with extra steps. Multi-agent systems are task decomposition, not sentience. The value is in the problem you solve, not the technique you use. I prefer maintainable systems that work over architectures that sound impressive in meetings.
+AI-first release system for LLM-assisted development, focused on semantic value rather than arbitrary release triggers.
 
-The hard part isn't getting a prototype to work. It's making it reliable enough that you can sleep at night.
+## How I Think About AI Systems
 
-## Background
+Most AI systems fail for ordinary engineering reasons: weak context boundaries, vague orchestration, no eval path, poor observability, and no clear ownership when the model is wrong.
 
-I work 100% remote from Madrid. Before Atlax360 I built everything from game engines to financial systems. I believe the best code is the code you don't have to write, which is why I'm interested in AI that reduces complexity instead of adding layers.
+I prefer systems where the behavior can be inspected. Retrieval should show its evidence. Agents should expose state and stopping conditions. Guardrails should be explicit. Cost and latency should be visible. Human review should be part of the design, not a late-stage patch.
 
-If you're working on something in the AI/document intelligence/automation space, reach out.
+The hard part is not getting a prototype to answer once. The hard part is making the system reliable enough that people can use it when the input is messy, the context is incomplete, and the model is unsure.
 
-**Contact:** [petruarakiss@gmail.com](mailto:petruarakiss@gmail.com) | [LinkedIn](https://www.linkedin.com/in/petruarakiss/) | [petruarakiss.com](https://petruarakiss.com)
+## Contact
+
+[petruarakiss.com](https://petruarakiss.com) · [LinkedIn](https://www.linkedin.com/in/petruarakiss/) · [GitHub](https://github.com/Arakiss) · [contact@petruarakiss.com](mailto:contact@petruarakiss.com)
