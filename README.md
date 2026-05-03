@@ -1,6 +1,6 @@
 # Petru Arakiss
 
-**AI Engineering Lead + Head of Frontend Platform @ Atlax360**
+**AI Engineering Lead + Head of Frontend Platform**
 
 I build production AI systems where the model is one component inside a larger product surface: retrieval infrastructure, agent runtimes, guardrails, evals, traces, cost controls, permissions, and operator-facing interfaces.
 
@@ -8,7 +8,7 @@ I have 20 years of software delivery experience across product, frontend, backen
 
 ## Current Work
 
-At Atlax360 I hold a dual role: I lead AI engineering across three production systems, and I lead the frontend platform behind the enterprise product surface. The names are internal; the engineering shape is the signal.
+I currently hold a dual role: I lead AI engineering across three production systems, and I lead the frontend platform behind an enterprise product surface. The names are internal; the engineering shape is the signal.
 
 **BIFROST**
 
