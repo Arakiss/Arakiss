@@ -42,11 +42,15 @@ Internal AI assistant product integrating BIFROST retrieval with MONARCH guardra
 
 Policy-as-code permission harness for AI coding agents: deterministic rules instead of prompt-only safety.
 
+**[traceframe](https://github.com/Arakiss/traceframe)**
+
+Local-first trace recorder and inspector for AI agent workflows: append-only run evidence, Codex/OMX-style hook ingestion, ledger indexing, HTML reports, and CI-verified smoke tests.
+
 **[vestig](https://github.com/Arakiss/vestig)**
 
 Runtime-agnostic structured logging with context propagation, observability primitives, and automatic PII sanitization.
 
-The next public work should expand the same line: traces, eval gates, retrieval quality, tool contracts, and human-review boundaries for production AI systems.
+The public line is becoming more coherent: permission boundaries, inspectable traces, structured logs, eval gates, retrieval quality, tool contracts, and human-review boundaries for production AI systems.
 
 ## How I Think About AI Systems
 
