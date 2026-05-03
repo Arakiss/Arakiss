@@ -1,14 +1,14 @@
 # Petru Arakiss
 
-**AI Product & Platform Engineer @ Atlax360**
+**AI Engineering Lead + Head of Frontend Platform @ Atlax360**
 
 I build production AI systems where the model is one component inside a larger product surface: retrieval infrastructure, agent runtimes, guardrails, evals, traces, cost controls, permissions, and operator-facing interfaces.
 
-I have 20 years of software delivery experience across product, frontend, backend, and platform work. The current focus is making AI useful in real financial operations, where answers need evidence, workflows need state, and failure modes need to be visible.
+I have 20 years of software delivery experience across product, frontend, backend, and platform work. The current focus is making AI useful in real financial operations, where answers need evidence, workflows need state, interfaces need to be operable, and failure modes need to be visible.
 
 ## Current Work
 
-At Atlax360 I lead AI engineering across three production systems. The names are internal; the engineering shape is the signal.
+At Atlax360 I hold a dual role: I lead AI engineering across three production systems, and I lead the frontend platform behind the enterprise product surface. The names are internal; the engineering shape is the signal.
 
 **BIFROST**
 
@@ -38,25 +38,15 @@ Internal AI assistant product integrating BIFROST retrieval with MONARCH guardra
 
 ## Selected Public Work
 
-**[ghostty-warp](https://github.com/Arakiss/ghostty-warp)**
+**[gommage](https://github.com/Arakiss/gommage)**
 
-Ghostty configuration system with themes, presets, fonts, tmux integration, and a config switcher.
+Policy-as-code permission harness for AI coding agents: deterministic rules instead of prompt-only safety.
 
 **[vestig](https://github.com/Arakiss/vestig)**
 
 Runtime-agnostic structured logging with context propagation, observability primitives, and automatic PII sanitization.
 
-**[gommage](https://github.com/Arakiss/gommage)**
-
-Policy-as-code permission harness for AI coding agents: deterministic rules instead of prompt-only safety.
-
-**[directed-systems-guide](https://github.com/Arakiss/directed-systems-guide)**
-
-Research-backed field guide on human-AI collaboration, directed systems, and the limits of autonomous agents.
-
-**[forgewright](https://github.com/Arakiss/forgewright)**
-
-AI-first release system for LLM-assisted development, focused on semantic value rather than arbitrary release triggers.
+The next public work should expand the same line: traces, eval gates, retrieval quality, tool contracts, and human-review boundaries for production AI systems.
 
 ## How I Think About AI Systems
 
