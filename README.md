@@ -29,9 +29,8 @@ The same practice, extracted into tools you can read:
 **AI agent harness & infrastructure**
 
 - **[gommage](https://github.com/Arakiss/gommage)** · `Rust` — deterministic policy engine for coding agents: maps tool calls to capabilities, evaluates YAML rules, and signs every decision in a verifiable audit log. Hard-stops that policy can't bypass; determinism enforced by CI (10× per OS/locale).
-- **[nahuali](https://github.com/Arakiss/nahuali)** · `TypeScript` — self-inspecting memory for agents: semantic/episodic/procedural memory with a governance layer that scores knowledge, surfaces contradictions, and flags blind spots over an append-only ledger.
+- **[nahuali](https://github.com/Arakiss/nahuali)** · `Rust` — tamper-evident, self-inspecting memory for agents: an append-only ledger with provenance and health signals, plus an Ed25519-signed hash chain so callers can audit which memory to trust.
 - **[traceframe](https://github.com/Arakiss/traceframe)** · `Rust` — local-first, verifiable traces of agent runs: what the agent called, what it was allowed, and what failed. Hook ingestion for Codex/OMX harnesses.
-- **[portico](https://github.com/Arakiss/portico)** · `TypeScript` — CLI-first browser-workflow runtime for agents: a sandboxed JS kernel over a capability-gated Playwright backend, with structured artifact traces and an MCP adapter.
 - **[greco](https://github.com/Arakiss/greco)** · `Rust` — a research harness asking whether a coding-agent harness can measurably improve itself, within operator-defined evals and strict budgets. Honest about what's proven and what isn't.
 
 **Observability & platform**
