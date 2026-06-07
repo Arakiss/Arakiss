@@ -28,6 +28,7 @@ The same practice, extracted into tools you can read.
 
 **AI agent harness & infrastructure**
 
+- **[KATSE](https://github.com/Arakiss/katse)** (Rust): local-first engine that reads Claude Code and Codex sessions on your machine and turns agent traces into a private curriculum. Source-available; nothing leaves your machine by default.
 - **[gommage](https://github.com/Arakiss/gommage)** (Rust): deterministic policy engine for coding agents. It maps tool calls to capabilities, evaluates YAML rules, and signs every decision in a verifiable audit log. Hard-stops that policy can't bypass; determinism enforced by CI (10× per OS/locale).
 - **[nahuali](https://github.com/Arakiss/nahuali)** (Rust): tamper-evident, self-inspecting memory for agents. An append-only ledger with provenance and health signals, plus an Ed25519-signed hash chain so callers can audit which memory to trust.
 - **[traceframe](https://github.com/Arakiss/traceframe)** (Rust): local-first, verifiable traces of agent runs. What the agent called, what it was allowed, and what failed, with hook ingestion for Codex/OMX harnesses.
