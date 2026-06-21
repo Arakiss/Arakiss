@@ -1,16 +1,18 @@
 # Petru Arakiss
 
-**AI Engineering Lead · Production AI systems that hold up after the demo**
+**AI Engineering Lead. Production AI, retrieval, agent runtimes, evals, traces, and operator workflows.**
 
-I build the engineering *around* the model: retrieval, agent runtimes, guardrails, evals, traces, and the operator interfaces that decide whether an AI system survives production. Twenty years in software, in machine learning since 2015, well before the current wave, and full-time on production AI these last few years inside regulated finance.
+I work on the engineering around language models: retrieval systems, agent and workflow runtimes, guardrails, eval loops, traces, permissions, cost and latency controls, and the product screens that make failures visible.
 
-Most AI systems don't fail on the model. They fail on weak context boundaries, vague orchestration, no eval path, and no clear owner when the model is wrong.
+Twenty years in software. Machine learning since 2015. Current work is inside regulated finance, so public detail has a boundary: I can name the systems and the engineering shape, but not expose private implementation details.
 
-## Current work
+Most AI systems do not fail only on model quality. They fail on weak context boundaries, vague orchestration, missing evals, hidden cost, unclear permissions, and no owner when the model is wrong.
 
-I lead AI engineering across three production systems at Atlax360. The names are internal; the engineering shape is the signal.
+## Current private production context
 
-**BIFROST.** Document intelligence and retrieval for the documents finance actually runs on: ingestion quality gates, semantic and visual chunking, pgvector/HNSW search, caching, source-quality scoring, analytics, and honest no-answer behavior.
+I lead AI engineering across three systems at Atlax360. The implementations are private. The architecture class is public.
+
+**BIFROST.** Document intelligence and retrieval for financial documents: ingestion quality gates, semantic and visual chunking, pgvector/HNSW search, caching, source-quality scoring, analytics, and explicit no-answer behavior when evidence is weak.
 
 `Python` · `FastAPI` · `PostgreSQL` · `pgvector` · `Docling` · `PyTorch` · `Transformers`
 
@@ -24,30 +26,34 @@ I lead AI engineering across three production systems at Atlax360. The names are
 
 ## Selected public work
 
-The same practice, extracted into tools you can read.
+These repos are not a complete production system. They are public pieces of the way I think about agentic engineering, observability, local tooling, and developer environments.
 
-**AI agent harness & infrastructure**
+**Agent harness and governance**
 
-- **[gommage](https://github.com/Arakiss/gommage)** (Rust): deterministic policy engine for coding agents. It maps tool calls to capabilities, evaluates YAML rules, and signs every decision in a verifiable audit log. Hard-stops that policy can't bypass; determinism enforced by CI (10× per OS/locale).
-- **[nahuali](https://github.com/Arakiss/nahuali)** (Rust): tamper-evident, self-inspecting memory for agents. An append-only ledger with provenance and health signals, plus an Ed25519-signed hash chain so callers can audit which memory to trust.
-- **[traceframe](https://github.com/Arakiss/traceframe)** (Rust): local-first, verifiable traces of agent runs. What the agent called, what it was allowed, and what failed, with hook ingestion for Codex/OMX harnesses.
-- **[greco](https://github.com/Arakiss/greco)** (Rust): a research harness asking whether a coding-agent harness can measurably improve itself, within operator-defined evals and strict budgets. Honest about what's proven and what isn't.
+- **[gommage](https://github.com/Arakiss/gommage)** (Rust): policy-as-code permission harness for AI coding agents. Deterministic allow, deny, and ask decisions with audit evidence.
+- **[nahuali](https://github.com/Arakiss/nahuali)** (Rust): self-inspecting memory for AI agents. Evidence, provenance, health signals, and an optional Ed25519-signed tamper-evident ledger.
+- **[traceframe](https://github.com/Arakiss/traceframe)** (Rust): local-first trace recorder for AI agent workflows. Append-only run evidence, hook ingestion, ledger indexing, reports, and CI gates.
+- **[greco](https://github.com/Arakiss/greco)** (Rust): research harness for typed, layered, reversible coding-agent harness changes under operator-owned evals and budgets.
 
-**Observability & platform**
+**Observability and local systems**
 
-- **[vestig](https://github.com/Arakiss/vestig)** (TypeScript): runtime-agnostic structured logging with automatic PII sanitization (GDPR/HIPAA/PCI-DSS) and native W3C tracing. Zero dependencies; runs on Node, Bun, Deno, Edge, and the browser.
-- **[eldr](https://github.com/Arakiss/eldr)** (Rust): zero-dependency Apple Silicon hardware monitor and thermal watchdog with a reversible-intervention model and hand-written FFI. A study in shipping discipline.
+- **[vestig](https://github.com/Arakiss/vestig)** (TypeScript): runtime-agnostic structured logging with context propagation, observability primitives, and automatic PII sanitization.
+- **[eldr](https://github.com/Arakiss/eldr)** (Rust): zero-dependency Apple Silicon hardware monitor and thermal watchdog: CPU/GPU/ANE power, per-core load, temperatures, fans, and battery without sudo.
 
-What runs through all of them: permission boundaries, inspectable traces, governed memory, eval gates, and human-review boundaries for production AI.
+**Developer environment**
+
+- **[ghostty-warp](https://github.com/Arakiss/ghostty-warp)** (Shell): Ghostty terminal environment for Linux: themes, presets, fonts, tmux integration, and a config switcher for a Warp-like workflow.
 
 ## How I think about AI systems
 
-I prefer systems whose behavior can be inspected. Retrieval shows its evidence. Agents expose state and stopping conditions. Guardrails are explicit. Cost and latency are visible. Human review is part of the design, not a late patch.
+I prefer systems whose behavior can be inspected. Retrieval should show its evidence. Agents should expose state and stopping conditions. Guardrails should be explicit. Cost and latency should be visible. Human review should be designed into the path, not patched on after a failure.
 
-The hard part isn't getting a prototype to answer once. It's making the system reliable when the input is malformed, the context is incomplete, and the model is unsure.
+The useful public claim is simple: if a repo, source, trace, test, or product constraint supports a statement, link it. If the work is private, say where the public boundary is.
 
 ## Open to
 
-Staff, Principal, Architect, and Forward Deployed AI roles where production AI is the core of the product. Madrid · remote-first across the EU.
+Staff, Principal, Architect, and Forward Deployed AI roles where production AI is the core product work.
 
-[petruarakiss.com](https://petruarakiss.com) · [LinkedIn](https://www.linkedin.com/in/petruarakiss/) · [GitHub](https://github.com/Arakiss) · [contact@petruarakiss.com](mailto:contact@petruarakiss.com)
+Madrid. Remote-first across the EU.
+
+[petruarakiss.com](https://www.petruarakiss.com) · [LinkedIn](https://www.linkedin.com/in/petruarakiss/) · [GitHub](https://github.com/Arakiss) · [contact@petruarakiss.com](mailto:contact@petruarakiss.com)
