@@ -4,7 +4,7 @@
 
 I work on the engineering around language models: retrieval systems, agent and workflow runtimes, guardrails, eval loops, traces, permissions, cost and latency controls, and the product screens that make failures visible.
 
-Twenty years in software. Machine learning since 2015. Current work is inside regulated finance, so public detail has a boundary: I can name the systems and the engineering shape, but not expose private implementation details.
+Professional software work since 2006. Machine learning since 2015. Current work is inside regulated finance, so public detail has a boundary: I can name the systems and the engineering shape, but not expose private implementation details.
 
 Most AI systems do not fail only on model quality. They fail on weak context boundaries, vague orchestration, missing evals, hidden cost, unclear permissions, and no owner when the model is wrong.
 
