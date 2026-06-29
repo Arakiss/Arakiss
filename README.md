@@ -1,16 +1,20 @@
 # Petru Arakiss
 
-**AI Engineering Lead. Production AI, retrieval, agent runtimes, evals, traces, and operator workflows.**
+**AI Engineering Lead. Staff/Principal AI product infrastructure: retrieval, agent runtimes, evals, observability, guardrails, and operator workflows.**
 
 I work on the engineering around language models: retrieval systems, agent and workflow runtimes, guardrails, eval loops, traces, permissions, cost and latency controls, and the product screens that make failures visible.
 
 Professional software work since 2006. Machine learning since 2015. Current work is inside regulated finance, so public detail has a boundary: I can name the systems and the engineering shape, but not expose private implementation details.
 
+At Atlax360 I entered through product-platform ownership in 2021, then added a dedicated AI Engineering Lead mandate in Jan 2024. The AI work is now the primary current signal. The earlier platform role still matters because it is the foundation behind the operator screens, review paths, component systems, and workflow UX around those AI systems.
+
+The strongest public proof is the recent Rust work. It shows how I think about agent infrastructure when the code is visible: deterministic guardrails, tamper-evident memory, append-only traces, local-first tooling, eval harnesses, and systems that fail in inspectable ways.
+
 Most AI systems do not fail only on model quality. They fail on weak context boundaries, vague orchestration, missing evals, hidden cost, unclear permissions, and no owner when the model is wrong.
 
 ## Current private production context
 
-I lead AI engineering across three systems at Atlax360. The implementations are private. The architecture class is public.
+I lead AI engineering across three systems at Atlax360, alongside an ongoing product-platform mandate. The implementations are private. The architecture class is public.
 
 **BIFROST.** Document intelligence and retrieval for financial documents: ingestion quality gates, semantic and visual chunking, pgvector/HNSW search, caching, source-quality scoring, analytics, and explicit no-answer behavior when evidence is weak.
 
@@ -26,7 +30,7 @@ I lead AI engineering across three systems at Atlax360. The implementations are 
 
 ## Selected public work
 
-These repos are not a complete production system. They are public pieces of the way I think about agentic engineering, observability, local tooling, and developer environments.
+These repos are not a complete production system. They are public pieces of the way I think about agentic engineering, observability, local tooling, and developer environments. The recent Rust repos are the clearest signal.
 
 **Agent harness and governance**
 
@@ -52,8 +56,8 @@ The useful public claim is simple: if a repo, source, trace, test, or product co
 
 ## Open to
 
-Staff, Principal, Architect, and Forward Deployed AI roles where production AI is the core product work.
+Staff Software Engineer, Principal Software Engineer, AI Infrastructure, Product Infrastructure, Applied AI, Architect, and Forward Deployed roles where production AI is the core product work.
 
 Madrid. Remote-first across the EU.
 
-[petruarakiss.com](https://www.petruarakiss.com) · [LinkedIn](https://www.linkedin.com/in/petruarakiss/) · [GitHub](https://github.com/Arakiss) · [contact@petruarakiss.com](mailto:contact@petruarakiss.com)
+[petruarakiss.com](https://www.petruarakiss.com) · [LinkedIn](https://www.linkedin.com/in/petruarakiss/) · [GitHub](https://github.com/Arakiss) · [petruarakiss@gmail.com](mailto:petruarakiss@gmail.com)
